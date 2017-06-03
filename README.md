@@ -1,6 +1,6 @@
 # twitterService
 ## Description
-twitterService is a steam microservice for sius course.
+twitterService is a twitter microservice for sius course.
 
 ### Starting
 ```
