@@ -5,6 +5,8 @@ import org.springframework.stereotype.Service;
 import twitter4j.*;
 import twitter4j.conf.ConfigurationBuilder;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 
@@ -45,7 +47,8 @@ public class TwitterServiceImpl implements TwitterService {
 
 
     @HystrixCommand
-    public String fallback(String name) {
-        return null;
+    public List<Status> fallback(String name) {
+        ArrayList<Status> result = new ArrayList<>();
+        return result;
     }
 }
